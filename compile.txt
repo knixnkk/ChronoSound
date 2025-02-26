@@ -1,0 +1,1 @@
+pyinstaller --noconfirm --onedir --windowed --add-data "your-customtkinter-location" --icon="assets/logo.ico" -w -F --add-binary "assets/logo.ico;." "main.py"
